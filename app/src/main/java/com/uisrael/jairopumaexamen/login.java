@@ -25,7 +25,7 @@ public class login extends AppCompatActivity {
         contra = pass.getText().toString();
 
 
-        if (name.equals("jpuma")&&contra.equals("123")){
+        if (name.equals("estudiante2019")&&contra.equals("uisrael2019")){
             Intent abrir_v2 = new Intent(  login.this, registro.class);
             abrir_v2.putExtra("DATOSENVIADOS", user.getText().toString());
             startActivity(abrir_v2);

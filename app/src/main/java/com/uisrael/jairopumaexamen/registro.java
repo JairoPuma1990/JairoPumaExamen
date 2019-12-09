@@ -28,7 +28,7 @@ public class registro extends AppCompatActivity {
 
         Intent abrir_v2 = new Intent(  registro.this, Encuesta.class);
         abrir_v2.putExtra("DATOSENVIADOS", recibir.getText().toString());
-        abrir_v2.putExtra("DATOSENVIADOS1", recibir.getText().toString());
+        abrir_v2.putExtra("DATOSENVIADOS1", nombre.getText().toString());
         startActivity(abrir_v2);
         Toast.makeText(getApplicationContext(),"oke Guardado exito ",Toast.LENGTH_LONG).show();
 
