@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JairoPumaExamen</string>
+    <string name="usuario">usuario</string>
+    <string name="password">password</string>
+    <string name="ingreso">ingreso</string>
+    <string name="nombre">Nombre</string>
+    <string name="montoinicial">Monto Inicial</string>
+    <string name="pagomensula">Pago Mensual</string>
+    <string name="guardar">Guardar</string>
+</resources>
